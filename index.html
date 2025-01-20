@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="/styles/">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
-    <style>
+    <!-- <style>
         body {
             /* background-color: red; */
+            /* background-color: black; */
             background-image: url();
+            width: 100vw;
+            height: 100vh;
         }
 
         .flex {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             text-align: center;
             justify-content: center;
         }
@@ -37,34 +40,71 @@
         }
 
         .banner {
-            height: 100%;
-            width: 100%;
+            width: 100vw;
+            height: 5vh;
+            margin: auto;
+
         }
-    </style>
+    </style> -->
 </head>
-<body class="page-size">
-    <header class=" left">
+<body>
+    <header>
         <div class="flex banner">
-            <img src="/images/logo.png" alt="mylogo" height="25px" width="25px">
+            <img src="/images/logo.png" alt="mylogo" height="35px" width="35px">
             <h1 id="name">
                 FirstOfLast
             </h1>
             <nav>
-                <button><a href="/index.html">About Me</a></button>
-                <button><a href="/pages/work_experience.html">Work Experience</a></button>
-                <button><a href="/pages/education.html">Education</a></button>
+                <button><a href="/index.html">Hey</a></button>
+                <button><a href="/pages/experiences.html">Experiences</a></button>
+                <button><a href="/pages/projects.html">Projects</a></button>
                 <button><a href="/pages/hobbies.html">Hobbies</a></button>
                 <button><a href="/pages/contact_me.html">Contact Me</a></button>
             </nav>
         </div>
     </header>
-    <main class="content">
-        <p>
-            Hi, I’m FirstofLast! I can’t stand boredom, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also enjoy learning new things, most of which revolve around computers and programming, keeping me engaged and (hopefully) boredom-free.
-        </p>
+    <main>
+        <div>
+            <h2>Who am I?</h2>
+            <p>
+                I am a student at SAIT that plans to become a full stack developer one day...
+                <!-- (On Click) Yo, I dont like being bored, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also try to learn new things, most of which revolve around computers and programming as to not burned out of my other hobbies. -->
+            </p>
+            <button>Wanna know more?</button>
+            <div class="side-nav">
+                <h2>Technical Skills</h2>
+                <ul>
+
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>MySQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>MySQL Plus</li>
+                    </ul>
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Google (mainly Docs, Sheet, PPT)</li>
+                        <li>MS (mainly Teams, Word,Excel, PPT)</li>
+                        <li>Adobe</li>
+                        <li>Figma</li>
+                        <li>DaVinci Resolve</li>
+                        <li>OBS Studio</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
-
+        &copy; 2024 FirstOfLast.
     </footer>
 </body>
 </html>
