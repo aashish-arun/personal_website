@@ -1,35 +1,115 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-body {
-    height: 600px;
-    margin: 0 auto; /* centers content on the screen */
-}
-
-.flex {
-    display: flex; 
-}
-
-
 .flex {
     display: flex;
-    align-items: right;
+    
+    
 }
 
-#banner {
-    height: 400px;
-    width: 1200px;
+.banner {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+
+    justify-content:  space-evenly;
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+    
 }
 
-#name {
-    font-size: 50px;
-    color: blue;
+.banner > nav > button {
+    padding: 5px 15px;
+    margin: 15px;
+    cursor: pointer;
 }
 
-#alias {
-    font-size: 25px;
-    color: blue;
+.content {
+    width: 100vw;
+    height: 70vh;
+
+    justify-content:  space-evenly;
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+}
+
+.left-bio-content {
+    flex-direction: column;
+    justify-content: center;
+    
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+}
+
+#expanding-who {
+    width: 850px;
+}
+
+#stylewhat {
+    width: 850px;
+}
+
+#expanding-who-button {
+    padding: 5px;
+}
+
+.socail-media {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socail-media > a > img {
+    width: 35px;
+    height: 35px;
+}
+
+.right-nav-content {
+    flex-direction: column;
+    justify-content: center;
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+}
+
+.right-nav-content > h2 {
+    margin-bottom: 0px;
+}
+
+
+.footer {
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+
+    justify-content: center;
+    /* justify-content: space-evenly; */
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
 }

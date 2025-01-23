@@ -4,56 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/">
+    <link rel="stylesheet" href="/styles/stylestest.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <!-- <style>
-        body {
-            /* background-color: red; */
-            /* background-color: black; */
-            background-image: url();
-            width: 100vw;
-            height: 100vh;
-        }
 
-        .flex {
-            display: flex;
-            align-items: flex-start;
-            text-align: center;
-            justify-content: center;
+    <script>
+        function expandWho() {
+            document.getElementById("expanding-who").innerHTML = "Yo, I dont like being bored, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also try to learn new things, most of which revolve around computers and programming as to not burned out of my other hobbies.";
         }
-        
-        h1 {
-            font-size: 15px;
-            margin: 10px;
-        }
-
-        nav {
-            background-color: blanchedalmond;
-        }
-
-        button { 
-            background-color: red;
-            font-size: 10px;
-            margin-left: 2px;
-            margin-right: 2px;
-        }
-
-        .banner {
-            width: 100vw;
-            height: 5vh;
-            margin: auto;
-
-        }
-    </style> -->
+    </script>
 </head>
+
+
 <body>
+
+
     <header>
         <div class="flex banner">
-            <img src="/images/logo.png" alt="mylogo" height="35px" width="35px">
+
+            <img src="/images/logo.png" alt="mylogo" height="45px" width="45px">
+
             <h1 id="name">
                 FirstOfLast
             </h1>
+
             <nav>
                 <button><a href="/index.html">Hey</a></button>
                 <button><a href="/pages/experiences.html">Experiences</a></button>
@@ -61,50 +35,141 @@
                 <button><a href="/pages/hobbies.html">Hobbies</a></button>
                 <button><a href="/pages/contact_me.html">Contact Me</a></button>
             </nav>
+
         </div>
     </header>
+
+
     <main>
-        <div>
-            <h2>Who am I?</h2>
-            <p>
-                I am a student at SAIT that plans to become a full stack developer one day...
-                <!-- (On Click) Yo, I dont like being bored, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also try to learn new things, most of which revolve around computers and programming as to not burned out of my other hobbies. -->
-            </p>
-            <button>Wanna know more?</button>
-            <div class="side-nav">
+        <div class="flex content">
+
+            <div class="flex left-bio-content">
+
+                <h2 id="who">Who am I?</h2>
+
+                <p id="expanding-who">
+                    I am a student at SAIT that plans to become a full stack developer one day and hpefully I will...
+                    <br>
+                    <button onclick="expandWho()" id="expanding-who-button">
+                        Wanna know more?
+                    </button>
+                </p>
+
+                <h2 id="what">What I am usually up to?</h2>
+                <p id="stylewhat">
+                    I am probably sleeping, listening to music, playing some games, watching some anime, reading some graphic novel or studying something new
+                </p>
+
+                <div class="flex socail-media">
+                    <a href="https://www.linkedin.com/in/aashish-arun-7489ab250/">
+                        <img src="/images/socialMediaLinks/Official/LinkedIn-Logos/LinkedIn-Logos/LI-In-Bug.png" alt="LinkedIn Logo">
+                    </a>
+                    <a href="https://github.com/aashish-arun">
+                        <img src="/images/socialMediaLinks/Official/github-mark-c791e9551fe4/github-mark/github-mark.png" alt="GitHub Logo">
+                    </a>
+                    <a href="https://open.spotify.com/user/31iqeqpxflo5cff4l3vtjjhsmuai">
+                        <img src="/images/socialMediaLinks/Official/2024-Spotify-Brand-Assets/2024 Spotify Brand Assets/Spotify_Primary_Logo_RGB_Green.png" alt="AniList Logo">
+                    </a>
+                    <a href="https://steamcommunity.com/id/FirstOfLast/">
+                        <img src="/images/socialMediaLinks/Unofficial/steam-logo/Steam_icon_logo.svg.png" alt="Steam Logo">
+                    </a>
+                    <a href="https://anilist.co/user/FirstOfLast/">
+                        <img src="/images/socialMediaLinks/Unofficial/anilist-logo/anilist-logo/anilisticon.svg" alt="AniList Logo">
+                    </a>
+                </div>
+
+                <h2>Why do I do it</h2>
+                <p>
+                    Hmm. I guess to kill boredom and unknowing finding it somewhat challenging and fun
+                </p>
+
+            </div>
+            
+            <div class="flex right-nav-content">
+
                 <h2>Technical Skills</h2>
                 <ul>
+                    <li>
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>C#</li>
+                            <li>MySQL Plus</li>
+                        </ul>
+                    </li>
 
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>MySQL</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>C#</li>
-                        <li>MySQL Plus</li>
-                    </ul>
-                    <h3>Technologies</h3>
-                    <ul>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                    <h3>Other</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Google (mainly Docs, Sheet, PPT)</li>
-                        <li>MS (mainly Teams, Word,Excel, PPT)</li>
-                        <li>Adobe</li>
-                        <li>Figma</li>
-                        <li>DaVinci Resolve</li>
-                        <li>OBS Studio</li>
-                    </ul>
+                    <li>
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <h3>Other</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Google (mainly Docs, Sheet, PPT)</li>
+                            <li>MS (mainly Teams, Word, Excel, PPT)</li>
+                            <li>Adobe</li>
+                            <li>Figma</li>
+                            <li>DaVinci Resolve</li>
+                            <li>OBS Studio</li>
+                        </ul>
+                    </li>
                 </ul>
+
+                
+                <!-- Made it to see which type would work better, gonna leave it be in the future for customization -->
+
+                <!-- <h2>Technical Skills</h2>
+
+                <div>
+                    <h3>Languages</h3>
+                        
+                    <div>Python</div>
+                    <div>MySQL</div>
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>JavaScript</div>
+                    <div>C#</div>
+                    <div>MySQL Plus</div>
+                </div>
+
+
+                <div>
+                    <h3>Technologies</h3>
+
+                    <div>Tailwind CSS</div>
+                </div>
+
+
+                <div>
+                    <h3>Other</h3>
+
+                    <div>Git</div>
+                    <div>Google (mainly Docs, Sheet, PPT)</div>
+                    <div>MS (mainly Teams, Word, Excel, PPT)</div>
+                    <div>Adobe</div>
+                    <div>Figma</div>
+                    <div>DaVinci Resolve</div>
+                    <div>OBS Studio</div>
+                </div> -->
+
             </div>
+
         </div>
     </main>
+
+
     <footer>
-        &copy; 2024 FirstOfLast.
+        <div class="flex footer">
+            &copy; 2024 FirstOfLast.
+        </div>
     </footer>
 </body>
 </html>
