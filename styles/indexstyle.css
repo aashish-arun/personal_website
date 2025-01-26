@@ -1,36 +1,9 @@
-.flex {
-    display: flex;
-    
-    
+header {
+    height: 10vh;
 }
 
-.banner {
-    width: 100vw;
-    height: 15vh;
-    text-align: center;
-    align-items: center;
-
-    justify-content:  space-evenly;
-
-    /*
-    border: 5px;
-    border-color: bisque;
-    border-style: solid;
-    */
-
-    margin: auto;
-    
-}
-
-.banner > nav > button {
-    padding: 5px 15px;
-    margin: 15px;
-    cursor: pointer;
-}
-
-.content {
-    width: 100vw;
-    height: 70vh;
+main {
+    height: 80vh;
 
     justify-content:  space-evenly;
 
@@ -56,21 +29,37 @@
     margin: auto;
 }
 
-#expanding-who {
-    width: 850px;
+#who {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-#stylewhat {
+#stylewho {
     width: 850px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 #expanding-who-button {
     padding: 5px;
 }
 
+#what {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#stylewhat {
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 .socail-media {
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
 
 .socail-media > a > img {
@@ -78,7 +67,18 @@
     height: 35px;
 }
 
-.right-nav-content {
+#why{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#stylewhy {
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.skill-bar {
     flex-direction: column;
     justify-content: center;
 
@@ -95,21 +95,6 @@
     margin-bottom: 0px;
 }
 
-
-.footer {
-    text-align: center;
-    align-items: center;
-    width: 100vw;
-    height: 15vh;
-
-    justify-content: center;
-    /* justify-content: space-evenly; */
-
-    /*
-    border: 5px;
-    border-color: bisque;
-    border-style: solid;
-    */
-
-    margin: auto;
+footer {
+    height: 10vh;
 }

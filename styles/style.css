@@ -1,0 +1,89 @@
+/* Colors for the site */
+body {
+    margin: 0%;
+    background-color: #181818;
+    align-items: center;
+}
+
+header {
+    margin: 0%;
+    background-color: #292929;
+
+}
+
+main {
+    margin: 0%;
+    background-color: none;
+}
+
+footer {
+    margin: 0%;
+    background-color: #292929;
+
+}
+
+h1, button, a, h2, p, li, h3 {
+    color: #f0f0f0;
+}
+
+button {
+    background-color: #b368f8;
+    border-radius: 5px;
+}
+
+/* Setting up flex */
+.flex {
+    display: flex;
+}
+
+/* Setting up banner */
+header {
+    width: 100vw;
+    height: 10vh;
+
+    text-align: center;
+    align-items: center;
+
+    justify-content:  space-evenly;
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+    
+}
+
+header > nav > button {
+    padding: 5px 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+header > nav > button > a {
+    text-decoration: none;
+}
+
+
+/* Setting up footer */
+footer {
+    width: 100vw;
+    height: 10vh;
+
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+    /* justify-content: space-evenly; */
+
+    /*
+    border: 5px;
+    border-color: bisque;
+    border-style: solid;
+    */
+
+    margin: auto;
+    
+}
