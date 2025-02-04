@@ -52,19 +52,7 @@ main {
 #stylewhat {
     width: 850px;
     margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.socail-media {
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 0px;
     margin-bottom: 25px;
-}
-
-.socail-media > a > img {
-    width: 35px;
-    height: 35px;
 }
 
 #why{

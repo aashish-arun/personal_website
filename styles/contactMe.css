@@ -1,0 +1,49 @@
+.flex {
+    display: flex;
+}
+
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+    width: 100vw;
+
+    padding: none;
+    margin: auto;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.contact-me, form {
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.form-field {
+    flex-direction: row;
+}
+
+.connect-with-me {
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.social-media-bar {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 60vw;
+}
+
+.social-media-bar > a > img {
+    width: 35px;
+    height: 35px
+}

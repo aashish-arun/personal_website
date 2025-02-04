@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/contactMe.css">
+
+    <script>
+        function expandWho() {
+            document.getElementById("stylewho").innerHTML = "Yo, I dont like being bored, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also try to learn new things, most of which revolve around computers and programming as to not burned out of my other hobbies.";
+        }
+    </script>
+</head>
+
+
+<body>
+
+
+    <header class="flex">
+        <img src="/images/pfp.png" alt="mylogo" height="45px" width="45px">
+
+        <h1 id="name">
+            FirstOfLast
+        </h1>
+
+        <nav>
+            <button><a href="/index.html">Hey</a></button>
+            <button><a href="/pages/timeline.html">Professional Timeline</a></button>
+            <button><a href="/pages/projects.html">Projects</a></button>
+            <button><a href="/pages/hobbies.html">Hobbies</a></button>
+            <button><a href="/pages/contactMe.html">Contact Me</a></button>
+        </nav>
+    </header>
+
+    <main class="flex container">
+
+        <div class="flex row container">
+
+            <div class="flex contact-me">
+                <h2>Contact Me?</h2>
+                <form action="get" class="row">
+                    <div class="flex form-field">
+                        <label for="user-name">Your Name:</label>
+                        <input type="name" id="user-name" required>
+                    </div>
+                    <div class="flex form-field">
+                        <label for="user-email">Your Email:</label>
+                        <input type="email" id="user-email" required>
+                    </div>
+                    <div class="flex form-field">
+                        <label for="user-message">Your Message:</label>
+                        <textarea name="" id="user-message" required></textarea>
+                    </div>
+                    <button class="custum-button">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            
+
+            <div class="flex connect-with-me">
+                <h2>Connect on social media?</h2>
+                <div class="flex social-media-bar">
+                    <a href="https://www.linkedin.com/in/aashish-arun-7489ab250/">
+                        <img src="/images/logo/linkedIn-logo.png" alt="LinkedIn Logo">
+                    </a>
+                    <a href="https://github.com/aashish-arun">
+                        <img src="/images/logo/github-logo-dark-theme.png" alt="GitHub Logo">
+                    </a>
+                    <a href="https://open.spotify.com/user/31iqeqpxflo5cff4l3vtjjhsmuai">
+                        <img src="/images/logo/spotify-logo-dark-theme.png" alt="AniList Logo">
+                    </a>
+                    <!-- <a href="https://steamcommunity.com/id/FirstOfLast/">
+                        <img src="/images/socialMediaLinks/Unofficial/steam-logo/Steam_icon_logo.svg.png" alt="Steam Logo">
+                    </a>
+                    <a href="https://anilist.co/user/FirstOfLast/">
+                        <img src="/images/socialMediaLinks/Unofficial/anilist-logo/anilist-logo/AniList_logo.svg" alt="AniList Logo">
+                    </a>
+                    <a href="https://discord.com/users/388634541595557908">
+                        <img src="/images/socialMediaLinks/Official/DiscordPressKit/Logos/3_Icon_Clyde/RGB/icon_clyde_blurple_RGB.png" alt="Discord Logo">
+                    </a> -->
+                    <a href="mailto:aashish.com@gmail.com">
+                    <img src="/images/logo/gmail-logo.png" alt="Gmail Logo">
+                    </a>
+                    <a href="mailto:aashish.arun@edu.sait.ca">
+                        <img src="/images/logo/microsoft-logo-dark-theme.png" alt="Microsoft Logo">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex download-resume">
+            <button class="download-button">
+                <a href="/downloads/AashishArun_Resume.docx">Download Resume</a>
+            </button> 
+        </div>
+
+    </main>
+
+    <footer class="flex">
+        <p>&copy; 2024 FirstOfLast.</p>
+        <p>All logos except the logo for this website are owned by their company and used for identification purposes only.</p>
+    </footer>
+
+
+</body>
+</html>
