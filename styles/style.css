@@ -28,13 +28,12 @@ footer > p {
 
 }
 
-h1, button, a, h2, p, li, h3 {
+h1, .btn, a, h2, p, li, h3 {
     color: #f0f0f0;
 }
 
-button {
+.btn {
     background-color: #b368f8;
-    border-radius: 5px;
 }
 
 /* Setting up flex */
@@ -42,7 +41,7 @@ button {
     display: flex;
 }
 
-/* Setting up banner */
+/* Setting up header */
 header {
     width: 100vw;
     height: 10vh;
@@ -50,7 +49,7 @@ header {
     text-align: center;
     align-items: center;
 
-    justify-content:  space-evenly;
+    justify-content:  space-evenly; 
 
     /*
     border: 5px;
@@ -59,19 +58,15 @@ header {
     */
 
     margin: auto;
-    
 }
 
-header > nav > button {
+.btn {
     padding: 5px 15px;
     margin: 15px;
     cursor: pointer;
-}
-
-header > nav > button > a {
     text-decoration: none;
+    border-radius: 5px;
 }
-
 
 /* Setting up footer */
 footer {
@@ -91,5 +86,4 @@ footer {
     */
 
     margin: auto;
-    
 }

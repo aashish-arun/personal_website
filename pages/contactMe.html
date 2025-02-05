@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/contactMe.css">
 
-    <script>
-        function expandWho() {
-            document.getElementById("stylewho").innerHTML = "Yo, I dont like being bored, so I keep myself occupied with hobbies like gaming, watching anime, and reading manga, manhua, and manhwa. I also try to learn new things, most of which revolve around computers and programming as to not burned out of my other hobbies.";
-        }
-    </script>
+    <script src="../scripts/main.js"></script>
 </head>
 
 
@@ -26,11 +23,11 @@
         </h1>
 
         <nav>
-            <button><a href="/index.html">Hey</a></button>
-            <button><a href="/pages/timeline.html">Professional Timeline</a></button>
-            <button><a href="/pages/projects.html">Projects</a></button>
-            <button><a href="/pages/hobbies.html">Hobbies</a></button>
-            <button><a href="/pages/contactMe.html">Contact Me</a></button>
+            <a href="/index.html" class="btn">Hey</a>
+            <a href="/pages/timeline.html" class="btn">Timeline</a>
+            <a href="/pages/projects.html" class="btn">Projects</a>
+            <a href="/pages/hobbies.html" class="btn">Hobbies</a>
+            <a href="/pages/contactMe.html" class="btn">Contact Me</a>
         </nav>
     </header>
 
@@ -40,7 +37,7 @@
 
             <div class="flex contact-me">
                 <h2>Contact Me?</h2>
-                <form action="get" class="row">
+                <form action="get" class="flex">
                     <div class="flex form-field">
                         <label for="user-name">Your Name:</label>
                         <input type="name" id="user-name" required>
@@ -53,7 +50,7 @@
                         <label for="user-message">Your Message:</label>
                         <textarea name="" id="user-message" required></textarea>
                     </div>
-                    <button class="custum-button">
+                    <button class="submit btn">
                         Submit
                     </button>
                 </form>
@@ -77,25 +74,23 @@
                     </a>
                     <a href="https://anilist.co/user/FirstOfLast/">
                         <img src="/images/socialMediaLinks/Unofficial/anilist-logo/anilist-logo/AniList_logo.svg" alt="AniList Logo">
-                    </a>
-                    <a href="https://discord.com/users/388634541595557908">
-                        <img src="/images/socialMediaLinks/Official/DiscordPressKit/Logos/3_Icon_Clyde/RGB/icon_clyde_blurple_RGB.png" alt="Discord Logo">
                     </a> -->
+                    <a href="https://discord.com/users/388634541595557908">
+                        <img src="/images/logo/discord-logo.png" alt="Discord Logo">
+                    </a>
                     <a href="mailto:aashish.com@gmail.com">
                     <img src="/images/logo/gmail-logo.png" alt="Gmail Logo">
                     </a>
-                    <a href="mailto:aashish.arun@edu.sait.ca">
+                    <!-- <a href="mailto:aashish.arun@edu.sait.ca">
                         <img src="/images/logo/microsoft-logo-dark-theme.png" alt="Microsoft Logo">
-                    </a>
+                    </a> -->
                 </div>
             </div>
 
         </div>
 
         <div class="flex download-resume">
-            <button class="download-button">
-                <a href="/downloads/AashishArun_Resume.docx">Download Resume</a>
-            </button> 
+                <a href="/downloads/AashishArun_Resume.docx" class="btn">Download Resume</a>
         </div>
 
     </main>
