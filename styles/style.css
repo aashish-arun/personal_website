@@ -28,7 +28,7 @@ footer > p {
 
 }
 
-h1, .btn, a, h2, p, li, h3 {
+label, h1, .submit-btn, .btn, a, h2, p, li, h3 {
     color: #f0f0f0;
 }
 
