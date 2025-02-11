@@ -60,9 +60,14 @@ input, textarea {
 }
 
 .connect-with-me {
+    background-color: #292929;  
+
     flex-direction: column;
     align-items: center;
-    width: 80vw;
+    
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto 10px;
 }
 
 .social-media-bar {

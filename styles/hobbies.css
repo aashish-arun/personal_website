@@ -1,0 +1,27 @@
+.container {
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.hobbies-nav-bar {
+    justify-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 30vw;
+}
+
+.selected-hobby {
+    flex-direction: column;
+    height: 80vh;
+    width: 70vw;
+}
+
+.selected-hobby, .hobbies-nav-bar {
+    text-align: center;
+    margin: auto;
+}
+.selected-hobby-content {
+    text-align:;
+}

@@ -17,16 +17,14 @@ main {
 }
 
 .left-bio-content {
+    background-color: #292929;  
+
     flex-direction: column;
     justify-content: center;
     
-    /*
-    border: 5px;
-    border-color: bisque;
-    border-style: solid;
-    */
-
-    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto 10px;
 }
 
 #who {
@@ -67,20 +65,30 @@ main {
 }
 
 .skill-bar {
+    background-color: #292929; 
+
     flex-direction: column;
     justify-content: center;
-
-    /*
-    border: 5px;
-    border-color: bisque;
-    border-style: solid;
-    */
-
-    margin: auto;
+    
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto 10px;
 }
 
 .right-nav-content > h2 {
     margin-bottom: 0px;
+}
+.list-container {
+    padding-left: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 20px;
 }
 
 footer {
